@@ -6,13 +6,13 @@ body {
   color: #333;
 }
 
-nav a {
+header a {
   color: #333;
   font-size: 1.5rem;
   margin-right: 1mm;
 }
 
-nav a:hover {
+header a:hover {
   color: #0d6efd;
 }
 
