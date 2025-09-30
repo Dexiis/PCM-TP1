@@ -1,17 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
 }
 
 header a {
-  color: #333;
+  color: #e0e0e0;
   font-size: 1.5rem;
   margin-right: 1mm;
 }
 
 header a:hover {
+  color: #0d6efd;
+}
+
+.dark-dark-bg {
+  background-color: #0f0f0f;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0d6efd;
+}
+
+.navbar .nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
   color: #0d6efd;
 }
