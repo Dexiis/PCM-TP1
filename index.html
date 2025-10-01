@@ -16,14 +16,14 @@
     />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body class="text-white dark-dark-bg">
+  <body class="text-white bg-color">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
 
-    <header class="d-flex gap-3 p-3">
+    <header class="d-flex gap-3 pt-4 px-4 mx-2">
       <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
         <i class="bi bi-linkedin"></i>
       </a>
@@ -38,9 +38,10 @@
       </a>
     </header>
 
-    <nav class="navbar justify-content-center nav-fill pb-5">
+    <!-- Make responsive to size adjustments -->
+    <nav class="font-lucida fw-bold navbar bg-color justify-content-center nav-fill p-4 sticky-top">
       <ul class="nav">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
@@ -56,7 +57,7 @@
           >
             Projects
           </a>
-          <ul class="dropdown-menu dark-dark-bg">
+          <ul class="dropdown-menu dropdown-color">
             <li>
               <a class="dropdown-item text-white" href="#">Irreal Engine</a>
             </li>
@@ -76,15 +77,23 @@
       </ul>
     </nav>
 
-    <main>
+    <main class="m-auto">
 
-      <section class="rounded" id="home">
-        <img src="images/foto-perfil.jpg"></img>
+      <!-- Increase font size -->
+      <section class="d-flex flex-wrap align-items-center justify-content-center m-auto p-5 gap-5" style="max-width: 75%;">
+        <img src="images/foto-perfil.jpg" alt="Profile photo of António Costa" class="rounded-circle" style="height:200px;"/>
+        <div class="text-center text-md-start">
+          <span class="font-lucida fw-bold fs-5">Hey! My name is</span>
+          <h1 class="m-0 font-monospace fw-bold text-primary">António Costa</h1>
+          <h2 class="font-serif fs-3">Software Developer</h2>
+          <p class="mt-4 font-lucida">I am ready to work with you!</p>
+        </div>
       </section>
 
+      <!-- Make responsive to size adjustments -->
       <div
         id="carouselExampleIndicators"
-        class="carousel slide"
+        class="carousel slide pt-5"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -154,10 +163,11 @@
         </button>
       </div>
 
+      <!-- Implement -->
       <section class="p-5 text-center" id="experience">EXPERIENCE</section>
     </main>
 
-    <footer class="p-5 text-center">
+    <footer class="p-5 text-center font-lucida fw-bold">
       <p>&copy; 2025 António Costa. All Rights Reserved.</p>
     </footer>
   </body>

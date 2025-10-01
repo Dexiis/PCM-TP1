@@ -12,12 +12,20 @@ header a:hover {
   color: #0d6efd;
 }
 
-.dark-dark-bg {
-  background-color: #0f0f0f;
+.bg-color {
+  background-color: #010712;
+}
+
+.dropdown-color {
+  background-color: #05132e;
+}
+
+footer {
+  background-color: #020202;
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #0d6efd;
+  background-color: #006efd;
 }
 
 .navbar .nav .nav-item .nav-link {
@@ -26,4 +34,13 @@ header a:hover {
 
 .navbar .nav .nav-item .nav-link:hover {
   color: #0d6efd;
+}
+
+.font-serif {
+  font-family: serif;
+}
+
+.font-lucida {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 0.05rem;
 }
