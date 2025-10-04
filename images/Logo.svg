@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="56.887184mm"
+   height="56.887188mm"
+   viewBox="0 0 56.887184 56.887188"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#441fd2;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#7c00d0;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient2"
+       id="linearGradient3"
+       x1="80.205696"
+       y1="89.064606"
+       x2="84.173943"
+       y2="145.81328"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-76.556406,-120.05642)">
+    <path
+       id="rect1"
+       d="m 63.176673,88.9953 h 38.026207 a 9.430492,9.430492 45 0 1 9.43049,9.430492 V 136.452 a 9.430492,9.430492 135 0 1 -9.43049,9.43049 H 63.176673 A 9.430492,9.430492 45 0 1 53.746181,136.452 V 98.425792 A 9.430492,9.430492 135 0 1 63.176673,88.9953 Z"
+       style="fill:url(#linearGradient3);stroke-width:0.264999;paint-order:markers fill stroke"
+       transform="translate(22.810224,31.061105)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.278089;paint-order:markers fill stroke"
+       x="104.98915"
+       y="164.15045"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.27809"
+         x="104.98915"
+         y="164.15045">A</tspan></text>
+  </g>
+</svg>
