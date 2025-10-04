@@ -7,29 +7,52 @@
    viewBox="0 0 56.887184 56.887188"
    version="1.1"
    id="svg1"
+   sodipodi:docname="Logo.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.9790081"
+     inkscape:cx="31.834129"
+     inkscape:cy="129.61038"
+     inkscape:window-width="1920"
+     inkscape:window-height="1111"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1">
     <linearGradient
        id="linearGradient2">
       <stop
-         style="stop-color:#441fd2;stop-opacity:1;"
+         style="stop-color:#93ff32;stop-opacity:1;"
          offset="0"
          id="stop2" />
       <stop
-         style="stop-color:#7c00d0;stop-opacity:1;"
+         style="stop-color:#00ffe0;stop-opacity:1;"
          offset="1"
          id="stop3" />
     </linearGradient>
     <linearGradient
        xlink:href="#linearGradient2"
        id="linearGradient3"
-       x1="80.205696"
-       y1="89.064606"
-       x2="84.173943"
-       y2="145.81328"
+       x1="66.284348"
+       y1="93.858147"
+       x2="98.095291"
+       y2="141.01981"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g

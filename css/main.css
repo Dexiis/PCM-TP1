@@ -1,15 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
-header a {
+.socials a {
   color: #e0e0e0;
   font-size: 1.5rem;
   margin-right: 1mm;
 }
 
-header a:hover {
-  color: #0d6efd;
+.socials a:hover {
+  color: #00ffa2;
 }
 
 .bg-color {
@@ -20,27 +20,17 @@ header a:hover {
   background-color: #05132e;
 }
 
-footer {
-  background-color: #020202;
-}
-
 .dropdown-menu .dropdown-item:hover {
-  background-color: #006efd;
+  background-color: #00ffa2;
 }
-
 .navbar .nav .nav-item .nav-link {
   color: #ffffff;
 }
 
 .navbar .nav .nav-item .nav-link:hover {
-  color: #0d6efd;
+  color: #00ffa2;
 }
 
-.font-serif {
-  font-family: serif;
-}
-
-.font-lucida {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  letter-spacing: 0.05rem;
+.font-green {
+  color: #00ffa2;
 }
