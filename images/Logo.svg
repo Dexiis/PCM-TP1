@@ -65,12 +65,12 @@
        transform="translate(22.810224,31.061105)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:0.278089;paint-order:markers fill stroke"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.278089;paint-order:markers fill stroke"
        x="104.98915"
        y="164.15045"
        id="text3"><tspan
          id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.27809"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';fill:#000000;fill-opacity:1;stroke-width:0.27809"
          x="104.98915"
          y="164.15045">A</tspan></text>
   </g>
