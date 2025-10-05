@@ -31,6 +31,10 @@ body {
   color: #00ffa2;
 }
 
-.font-green {
+.color-green {
   color: #00ffa2;
+}
+
+.bg-green {
+  background-color: #00ffa2;
 }

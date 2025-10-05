@@ -30,11 +30,9 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="js/script.js"></script>
-
-    <!-- Make responsive to size adjustments -->
+    <!-- Make nav bar toggler -->
     <nav
-      class="font-lucida fw-bold navbar bg-color nav-fill p-4 sticky-top px-5 border-bottom border-dark"
+      class="fw-bold navbar bg-color nav-fill p-4 sticky-top px-5 border-bottom border-dark"
     >
       <a class="align-items-left" href="#">
         <img
@@ -93,16 +91,15 @@
         <!-- break section -->
       </section>
 
-      <!-- Increase font size -->
-      <section class="d-flex flex-wrap p-5">
+      <section class="d-flex flex-wrap p-5" id="introduction">
         <div>
-          <h2 class="font-green">Hey there! I'm/</h2>
+          <h2 class="color-green">Hey there! I'm/</h2>
           <h1 class="fw-bold display-1" style="font-size: 6.5rem">
             António Costa.
           </h1>
           <h2 class="py-2">
             { I am a Full Stack Software Developer <br />
-            and I am ready to help! }.
+            and I am ready to help! };
           </h2>
           <div class="fs-5 pt-4 text-secondary">
             <p>🚀 Transforming ideas into seamless digital experiences.</p>
@@ -190,10 +187,24 @@
       </div>
 
       <!-- Implement -->
-      <section class="p-5 text-center" id="experience">EXPERIENCE</section>
+      <section class="p-5" id="experience">
+        <h1 class="text-center fw-bold py-5">Experience</h1>
+        <p>Web</p>
+        <div
+          class="progress"
+          role="progressbar"
+          aria-label="Success example"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          style="width: 300px; height: 10px"
+        >
+          <div class="progress-bar bg-green" style="width: 85%"></div>
+        </div>
+      </section>
 
-      <section class="p-5 text-center" id="about">
-        ABOUT
+      <section class="p-5" id="about">
+        <h1 class="text-center fw-bold py-5">About Me</h1>
         <img
           src="images/foto-perfil.jpg"
           alt="Profile photo of António Costa"
@@ -203,7 +214,7 @@
       </section>
     </main>
 
-    <footer class="p-5 text-center font-lucida fw-bold">
+    <footer class="p-5 text-center fw-bold">
       <p>&copy; 2025 António Costa. All Rights Reserved.</p>
 
       <div class="socials d-flex gap-3 py-4 justify-content-center">
