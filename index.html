@@ -79,9 +79,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="mailto:antonio.goat.costa@gmail.com"
-            >Contact Me</a
-          >
+          <a class="nav-link" href="#contact">Contact Me</a>
         </li>
       </ul>
     </nav>
@@ -186,13 +184,21 @@
         </button>
       </div>
 
+      <section class="p-5">
+        <!-- break section -->
+      </section>
+
       <!-- Implement -->
       <section class="p-5" id="experience">
-        <h1 class="text-center fw-bold py-5">Experience</h1>
+        <h1 class="text-center fw-bold py-5 display-3">Experience</h1>
 
-        <div class=" p-5 d-flex justify-content-center gap-5">
-          <div>
-            <p">Web</p>
+        <section class="p-5">
+          <!-- break section -->
+        </section>
+
+        <div class="d-flex gap-5">
+          <div class="container justify-content-center">
+            <p>Web</p>
             <div
               class="progress"
               role="progressbar"
@@ -212,10 +218,8 @@
               technologies.
             </p>
           </div>
-          <img src="images/html-logo.png" style="height: 200px;">
-        </div>
 
-        <div>
+          <div class="container justify-content-center">
             <p>Mobile</p>
             <div
               class="progress"
@@ -228,7 +232,7 @@
             >
               <div class="progress-bar bg-green" style="width: 70%"></div>
             </div>
-            <p class="text-center py-4">
+            <p class="text-wrap py-4">
               I have solid experience in mobile app development, focusing on
               creating efficient, cross-platform applications with smooth
               performance and intuitive design. My goal is to deliver mobile
@@ -236,7 +240,7 @@
             </p>
           </div>
 
-        <div>
+          <div class="container justify-content-center">
             <p>Machine Learning</p>
             <div
               class="progress"
@@ -249,29 +253,75 @@
             >
               <div class="progress-bar bg-green" style="width: 50%"></div>
             </div>
-            <p class="text-center py-4">
+            <p class="py-4">
               I possess a foundational understanding of machine learning
               concepts and tools. I can implement basic models, work with
               datasets, and integrate AI features into applications to enhance
               functionality and user experience.
             </p>
+          </div>
         </div>
       </section>
 
-      <section class="p-5" id="about">
-        <h1 class="text-center fw-bold py-5">About Me</h1>
-        <img
-          src="images/foto-perfil.jpg"
-          alt="Profile photo of António Costa"
-          class="rounded-circle"
-          style="height: 300px"
-        />
+      <section class="p-5 justify-content-center" id="about">
+        <h1 class="text-center fw-bold py-5 display-3">About Me</h1>
+
+        <section class="p-5">
+          <!-- break section -->
+        </section>
+
+        <div
+          class="container d-flex justify-content-center gap-5 align-items-center"
+        >
+          <img
+            src="images/foto-perfil.jpg"
+            alt="Profile photo of António Costa"
+            class="rounded-circle"
+            style="height: 300px"
+          />
+          <p style="width: 500px">
+            I am a Full Stack Developer with experience in designing and
+            building scalable web applications. My expertise spans both frontend
+            and backend development, using technologies such as React, Node.js,
+            and MongoDB. I focus on writing clean, efficient code and creating
+            solutions that are both functional and user-friendly. I am committed
+            to continuous learning and enjoy collaborating on projects that
+            deliver real value to users and businesses.
+          </p>
+        </div>
+      </section>
+
+      <section class="p-5" id="contact">
+        <h1 class="text-center fw-bold py-5 display-3">Contact Me</h1>
+        <section class="container justify-content-center" style="width: 500px">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Your message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+            <button>Submit</button>
+          </div>
+        </section>
       </section>
     </main>
 
     <footer class="p-5 text-center fw-bold">
       <p>&copy; 2025 António Costa. All Rights Reserved.</p>
-
       <div class="socials d-flex gap-3 py-4 justify-content-center">
         <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
           <i class="bi bi-linkedin"></i>
