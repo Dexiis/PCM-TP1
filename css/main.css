@@ -40,10 +40,11 @@ body {
 }
 
 .card {
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
 }
 
 .card:hover {
   transform: scale(105%);
   transition: 0.3s ease;
+  box-shadow: 0 0 100px #00ffa2;
 }
