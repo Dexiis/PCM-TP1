@@ -33,64 +33,66 @@
     <script src="js/script.js"></script>
 
     <!-- Make nav bar toggler -->
-    <nav
-      class="fw-bold navbar bg-color nav-fill p-4 sticky-top px-5 border-bottom border-dark"
-    >
-      <a class="align-items-left" href="#">
-        <img
-          src="images/Logo.svg"
-          style="height: 40px"
-          alt="Logo of António Costa"
-        />
-      </a>
+    <header>
+      <nav
+        class="fw-bold navbar bg-color nav-fill p-4 sticky-top px-5 border-bottom border-dark"
+      >
+        <a class="align-items-left" href="#">
+          <img
+            src="images/Logo.svg"
+            style="height: 40px"
+            alt="Logo of António Costa"
+          />
+        </a>
 
-      <ul class="nav flex-column flex-md-row justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Projects
-          </a>
-          <ul class="dropdown-menu dropdown-color">
-            <li>
-              <a class="dropdown-item text-white" href="#">CampusConnect</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" href="#">ShopSmart</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" href="#">TrackIt</a>
-            </li>
-            <li>
-              <a class="dropdown-item text-white" href="#">WeatherWise</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+        <ul class="nav flex-column flex-md-row justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Projects
+            </a>
+            <ul class="dropdown-menu dropdown-color">
+              <li>
+                <a class="dropdown-item text-white" href="#">CampusConnect</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#">ShopSmart</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#">TrackIt</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-white" href="#">WeatherWise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="m-auto">
-      <section class="p-5">
-        <!-- break section -->
-      </section>
-
-      <section class="d-flex flex-wrap p-5" id="introduction">
+      <section
+        class="d-flex flex-wrap p-5"
+        id="introduction"
+        style="margin-top: 6rem"
+      >
         <div>
           <h2 class="color-green">Hey there! I'm/</h2>
           <h1 class="fw-bold display-1" style="font-size: 6.5rem">
@@ -113,89 +115,87 @@
       </section>
 
       <!-- Make responsive to size adjustments -->
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide pt-5"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-
-        <div class="carousel-inner" style="height: 600px">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="images/dragon 2.jpg"
-              alt="First slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/dragon 2.jpg"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/dragon 2.jpg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
+      <section>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide pt-5"
+          data-bs-ride="carousel"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
 
-      <section class="p-5">
-        <!-- break section -->
+          <div class="carousel-inner" style="height: 600px">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="images/dragon 2.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/dragon 2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="images/dragon 2.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
 
       <!-- Implement -->
-      <section class="p-5" id="experience">
+      <section
+        class="p-5"
+        id="experience"
+        style="margin-top: 5rem; margin-bottom: 5rem"
+      >
         <h1 class="text-center fw-bold py-5 display-3">Experience</h1>
-
-        <section class="p-4">
-          <!-- break section -->
-        </section>
 
         <div class="d-flex gap-5">
           <div class="container justify-content-center">
@@ -269,11 +269,7 @@
           </div>
         </div>
 
-        <section class="p-5">
-          <!-- break section -->
-        </section>
-
-        <section id="stack">
+        <section id="stack" style="margin-top: 7rem">
           <h1 class="text-center fw-bold py-5">Tech Stack</h1>
 
           <div class="d-flex flex-wrap gap-3 justify-content-center py-5">
@@ -415,12 +411,9 @@
       <section class="p-5 justify-content-center" id="about">
         <h1 class="text-center fw-bold py-5 display-3">About Me</h1>
 
-        <section class="p-4">
-          <!-- break section -->
-        </section>
-
         <div
-          class="container d-flex justify-content-center gap-5 align-items-center"
+          class="container d-flex justify-content-center gap-5 align-items-center flex-column flex-md-row"
+          style="padding-bottom: 8rem"
         >
           <img
             src="images/foto-perfil.jpg"
@@ -446,10 +439,6 @@
             </a>
           </div>
         </div>
-
-        <section class="p-5">
-          <!-- break section -->
-        </section>
 
         <div class="container d-flex gap-5 justify-content-center p-5">
           <div
@@ -508,12 +497,10 @@
 
       <section class="p-5" id="contact">
         <h1 class="text-center fw-bold py-5 display-3">Contact Me</h1>
-
-        <section class="p-4">
-          <!-- break section -->
-        </section>
-
-        <section class="container justify-content-center" style="width: 500px">
+        <section
+          class="container justify-content-center"
+          style="padding-bottom: 8rem"
+        >
           <form action="mailto:antonio.costa@gmail.com">
             <div class="mb-3">
               <label for="email-field" class="form-label">Email address</label>
