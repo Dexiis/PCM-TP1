@@ -199,67 +199,73 @@
 
         <div class="d-flex gap-5">
           <div class="container justify-content-center">
-            <p>Web</p>
-            <div
-              class="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="90"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 320px; height: 10px"
-            >
-              <div class="progress-bar bg-green" style="width: 90%"></div>
+            <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
+              <p class="fw-bold fs-5">Web</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 320px; height: 10px"
+              >
+                <div class="progress-bar bg-green" style="width: 90%"></div>
+              </div>
+              <p class="py-4">
+                I have advanced proficiency in web development, with strong
+                experience in building responsive, high-performance websites and
+                web applications. My focus is on clean code, scalability, and
+                creating user-friendly interfaces using modern frameworks and
+                technologies.
+              </p>
             </div>
-            <p class="py-4">
-              I have advanced proficiency in web development, with strong
-              experience in building responsive, high-performance websites and
-              web applications. My focus is on clean code, scalability, and
-              creating user-friendly interfaces using modern frameworks and
-              technologies.
-            </p>
           </div>
 
           <div class="container justify-content-center">
-            <p>Mobile</p>
-            <div
-              class="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="70"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 320px; height: 10px"
-            >
-              <div class="progress-bar bg-green" style="width: 70%"></div>
+            <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
+              <p class="fw-bold fs-5">Mobile</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 320px; height: 10px"
+              >
+                <div class="progress-bar bg-green" style="width: 70%"></div>
+              </div>
+              <p class="text-wrap py-4">
+                I have solid experience in mobile app development, focusing on
+                creating efficient, cross-platform applications with smooth
+                performance and intuitive design. My goal is to deliver mobile
+                solutions that align with both business and user needs.
+              </p>
             </div>
-            <p class="text-wrap py-4">
-              I have solid experience in mobile app development, focusing on
-              creating efficient, cross-platform applications with smooth
-              performance and intuitive design. My goal is to deliver mobile
-              solutions that align with both business and user needs.
-            </p>
           </div>
 
           <div class="container justify-content-center">
-            <p>Machine Learning</p>
-            <div
-              class="progress"
-              role="progressbar"
-              aria-label="Success example"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 320px; height: 10px"
-            >
-              <div class="progress-bar bg-green" style="width: 50%"></div>
+            <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
+              <p class="fw-bold fs-5">Machine Learning</p>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Success example"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 320px; height: 10px"
+              >
+                <div class="progress-bar bg-green" style="width: 50%"></div>
+              </div>
+              <p class="py-4">
+                I possess a foundational understanding of machine learning
+                concepts and tools. I can implement basic models, work with
+                datasets, and integrate AI features into applications to enhance
+                functionality and user experience.
+              </p>
             </div>
-            <p class="py-4">
-              I possess a foundational understanding of machine learning
-              concepts and tools. I can implement basic models, work with
-              datasets, and integrate AI features into applications to enhance
-              functionality and user experience.
-            </p>
           </div>
         </div>
 
@@ -508,38 +514,40 @@
         </section>
 
         <section class="container justify-content-center" style="width: 500px">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >Your message</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
+          <form action="mailto:antonio.costa@gmail.com">
+            <div class="mb-3">
+              <label for="email-field" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email-field"
+                placeholder="name@example.com"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Your message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+
             <div class="py-4">
-              <button type="button" class="btn btn-outline-light w-100">
+              <button type="submit" class="btn btn-outline-light w-100">
                 Submit
               </button>
             </div>
-          </div>
+          </form>
         </section>
       </section>
     </main>
 
     <footer class="p-5 text-center fw-bold">
-      <p>&copy; 2025 António Costa. All Rights Reserved.</p>
+      <p class="color-green">&copy; 2025 António Costa. All Rights Reserved.</p>
       <div class="socials d-flex gap-3 py-4 justify-content-center">
         <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
           <i class="bi bi-linkedin"></i>
