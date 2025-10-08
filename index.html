@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body class="text-white bg-color px-5">
+  <body class="text-white bg-color px-0 px-md-5">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -35,69 +35,89 @@
     <!-- Make nav bar toggler -->
     <header>
       <nav
-        class="fw-bold navbar bg-color nav-fill p-4 sticky-top px-5 border-bottom border-dark"
+        class="fw-bold navbar navbar-dark bg-color p-4 px-5 border-bottom border-dark navbar-expand-md fixed-top"
+        aria-label="Main navigation"
       >
-        <a class="align-items-left" href="#">
-          <img
-            src="images/Logo.svg"
-            style="height: 40px"
-            alt="Logo of António Costa"
-          />
-        </a>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/Logo.svg"
+              style="height: 40px"
+              alt="Logo of António Costa"
+            />
+          </a>
 
-        <ul class="nav flex-column flex-md-row justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Projects
-            </a>
-            <ul class="dropdown-menu dropdown-color">
-              <li>
-                <a class="dropdown-item text-white" href="#">CampusConnect</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav flex-column flex-md-row">
+              <li class="nav-item">
+                <a class="nav-link nav-custom" href="#">Home</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#">ShopSmart</a>
+              <li class="nav-item">
+                <a class="nav-link nav-custom" href="#experience">Experience</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#">TrackIt</a>
+              <li class="nav-item">
+                <a class="nav-link nav-custom" href="#about">About</a>
               </li>
-              <li>
-                <a class="dropdown-item text-white" href="#">WeatherWise</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle nav-custom"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu dropdown-color">
+                  <li>
+                    <a class="dropdown-item text-white" href="#"
+                      >CampusConnect</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">ShopSmart</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">TrackIt</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#">WeatherWise</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-custom" href="#contact">Contact Me</a>
               </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact Me</a>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main class="m-auto">
       <section
-        class="d-flex flex-wrap p-5"
+        class="d-flex flex-wrap py-5 px-2 px-md-5"
         id="introduction"
-        style="margin-top: 6rem"
+        style="margin-top: 10rem"
       >
         <div>
           <h2 class="color-green">Hey there! I'm/</h2>
-          <h1 class="fw-bold display-1" style="font-size: 6.5rem">
-            António Costa.
-          </h1>
+          <h1 class="fw-bold display-1 ac-mq">António Costa.</h1>
           <h2 class="py-2">
             { I am a Full Stack Software Developer <br />
             and I am ready to help! };
@@ -115,7 +135,7 @@
       </section>
 
       <!-- Make responsive to size adjustments -->
-      <section>
+      <section id="carousel-section">
         <div
           id="carouselExampleIndicators"
           class="carousel slide pt-5"
@@ -144,7 +164,7 @@
             ></button>
           </div>
 
-          <div class="carousel-inner" style="height: 600px">
+          <div class="carousel-inner">
             <div class="carousel-item active">
               <img
                 class="d-block w-100"
@@ -197,10 +217,10 @@
       >
         <h1 class="text-center fw-bold py-5 display-3">Experience</h1>
 
-        <div class="d-flex gap-5">
+        <div class="d-flex gap-5 flex-column flex-md-row">
           <div class="container justify-content-center">
             <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
-              <p class="fw-bold fs-5">Web</p>
+              <h3 class="fw-bold fs-5 pb-2">Web</h3>
               <div
                 class="progress"
                 role="progressbar"
@@ -208,7 +228,7 @@
                 aria-valuenow="90"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                style="width: 320px; height: 10px"
+                style="width: 100%; height: 10px"
               >
                 <div class="progress-bar bg-green" style="width: 90%"></div>
               </div>
@@ -224,7 +244,7 @@
 
           <div class="container justify-content-center">
             <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
-              <p class="fw-bold fs-5">Mobile</p>
+              <h3 class="fw-bold fs-5 pb-2">Mobile</h3>
               <div
                 class="progress"
                 role="progressbar"
@@ -232,7 +252,7 @@
                 aria-valuenow="70"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                style="width: 320px; height: 10px"
+                style="width: 100%; height: 10px"
               >
                 <div class="progress-bar bg-green" style="width: 70%"></div>
               </div>
@@ -247,7 +267,7 @@
 
           <div class="container justify-content-center">
             <div class="rounded-4 bg-dark bg-opacity-25 p-4 card-custom">
-              <p class="fw-bold fs-5">Machine Learning</p>
+              <h3 class="fw-bold fs-5 pb-2">Machine Learning</h3>
               <div
                 class="progress"
                 role="progressbar"
@@ -255,7 +275,7 @@
                 aria-valuenow="50"
                 aria-valuemin="0"
                 aria-valuemax="100"
-                style="width: 320px; height: 10px"
+                style="width: 100%; height: 10px"
               >
                 <div class="progress-bar bg-green" style="width: 50%"></div>
               </div>
@@ -408,7 +428,10 @@
         </section>
       </section>
 
-      <section class="p-5 justify-content-center" id="about">
+      <section
+        class="container p-5 justify-content-center align-items-center"
+        id="about"
+      >
         <h1 class="text-center fw-bold py-5 display-3">About Me</h1>
 
         <div
@@ -423,11 +446,11 @@
           />
 
           <div class="">
-            <p class="fs-5 py-3" style="width: 500px">
-              I am a Full Stack Developer with experience in designing and
+            <p class="fs-5 py-3">
+              &lt;I am a Full Stack Developer with experience in designing and
               building scalable web applications. My expertise spans both
               frontend and backend development, using technologies such as
-              React, Node.js, and MongoDB.
+              React, Node.js, and MongoDB. /&gt;
             </p>
             <a
               href="files/CV.pdf"
@@ -440,11 +463,11 @@
           </div>
         </div>
 
-        <div class="container d-flex gap-5 justify-content-center p-5">
-          <div
-            class="card bg-dark bg-opacity-50 card-custom"
-            style="width: 18rem"
-          >
+        <div
+          class="d-flex gap-5 justify-content-center align-items-center p-5 flex-column flex-md-row"
+          id="about-cards"
+        >
+          <div class="card bg-dark bg-opacity-50 card-custom w-100">
             <div class="card-body">
               <h5 class="card-title text-white fw-bold pb-4 fs-3">Projects</h5>
               <div class="d-flex gap-5 justify-content-between">
@@ -457,10 +480,7 @@
             </div>
           </div>
 
-          <div
-            class="card bg-dark bg-opacity-50 card-custom"
-            style="width: 18rem"
-          >
+          <div class="card bg-dark bg-opacity-50 card-custom w-100">
             <div class="card-body">
               <h5 class="card-title text-white fw-bold pb-4 fs-3">
                 Certificates
@@ -475,10 +495,7 @@
             </div>
           </div>
 
-          <div
-            class="card bg-dark bg-opacity-50 card-custom"
-            style="width: 18rem"
-          >
+          <div class="card bg-dark bg-opacity-50 card-custom w-100">
             <div class="card-body">
               <h5 class="card-title text-white fw-bold pb-4 fs-3">
                 Experience
@@ -501,34 +518,40 @@
           class="container justify-content-center"
           style="padding-bottom: 8rem"
         >
-          <form action="mailto:antonio.costa@gmail.com">
-            <div class="mb-3">
-              <label for="email-field" class="form-label">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email-field"
-                placeholder="name@example.com"
-              />
-            </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+              <form action="mailto:antonio.costa@gmail.com">
+                <div class="mb-3">
+                  <label for="email-field" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email-field"
+                    placeholder="name@example.com"
+                  />
+                </div>
 
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
-                >Your message</label
-              >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
-            </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Your message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
 
-            <div class="py-4">
-              <button type="submit" class="btn btn-outline-light w-100">
-                Submit
-              </button>
+                <div class="py-4">
+                  <button type="submit" class="btn btn-outline-light w-100">
+                    Submit
+                  </button>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </section>
       </section>
     </main>

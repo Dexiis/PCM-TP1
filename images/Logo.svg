@@ -60,18 +60,18 @@
      transform="translate(-76.556406,-120.05642)">
     <path
        id="rect1"
-       d="m 63.176673,88.9953 h 38.026207 a 9.430492,9.430492 45 0 1 9.43049,9.430492 V 136.452 a 9.430492,9.430492 135 0 1 -9.43049,9.43049 H 63.176673 A 9.430492,9.430492 45 0 1 53.746181,136.452 V 98.425792 A 9.430492,9.430492 135 0 1 63.176673,88.9953 Z"
-       style="fill:url(#linearGradient3);stroke-width:0.264999;paint-order:markers fill stroke"
+       style="display:inline;fill:url(#linearGradient3);stroke-width:0.264999;paint-order:markers fill stroke"
+       d="m 81.994587,107.77505 -4.013192,12.81989 h 8.177796 l -4.012675,-12.81989 z"
        transform="translate(22.810224,31.061105)" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.278089;paint-order:markers fill stroke"
-       x="104.98915"
-       y="164.15045"
-       id="text3"><tspan
-         id="tspan3"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:44.4243px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display Bold';fill:#000000;fill-opacity:1;stroke-width:0.27809"
-         x="104.98915"
-         y="164.15045">A</tspan></text>
+    <path
+       id="path5"
+       style="display:none;fill:url(#linearGradient3);stroke-width:0.264999;paint-order:markers fill stroke"
+       d="m 78.328661,101.78833 -10.867554,31.30093 h 6.724654 l 2.385901,-7.59178 H 87.56944 l 2.385901,7.59178 h 6.962883 L 86.028966,101.78833 Z m 3.665926,5.98672 h 0.151929 l 4.012675,12.81989 h -8.177796 z"
+       transform="translate(22.810224,31.061105)" />
+    <path
+       id="path4"
+       style="fill:url(#linearGradient3);stroke-width:0.264999;paint-order:markers fill stroke"
+       d="M 63.176614 88.995315 A 9.430492 9.430492 0 0 0 53.746182 98.425747 L 53.746182 136.45185 A 9.430492 9.430492 0 0 0 63.176614 145.88228 L 101.20272 145.88228 A 9.430492 9.430492 0 0 0 110.63315 136.45185 L 110.63315 98.425747 A 9.430492 9.430492 0 0 0 101.20272 88.995315 L 63.176614 88.995315 z M 78.328661 101.78833 L 86.028966 101.78833 L 96.918224 133.08926 L 89.955341 133.08926 L 87.56944 125.49748 L 76.571662 125.49748 L 74.185761 133.08926 L 67.461107 133.08926 L 78.328661 101.78833 z "
+       transform="translate(22.810224,31.061105)" />
   </g>
 </svg>

@@ -23,11 +23,11 @@ body {
 .dropdown-menu .dropdown-item:hover {
   background-color: #00ffa2;
 }
-.navbar .nav .nav-item .nav-link {
+.nav-custom {
   color: #ffffff;
 }
 
-.navbar .nav .nav-item .nav-link:hover {
+.nav-custom:hover {
   color: #00ffa2;
 }
 
@@ -51,4 +51,17 @@ body {
 
 #stack {
   padding-inline: 22%;
+}
+
+@media (width >= 780px) {
+  .ac-mq {
+    font-size: 6.5rem;
+  }
+}
+
+@media (width < 780px) {
+  #introduction {
+    text-align: center;
+    justify-content: center;
+  }
 }
