@@ -8,4 +8,4 @@ Este é o 1º trabalho realizado na unidade curricular de Produção de Conteúd
 ---
 
 ### **Descrição do Trabalho**
-Este repositório apresenta o portofólio ilustrativo de uma pessoa à nossa escolha. Este portofóliop foi criado na iamgem de **António Costa**, um Programador e Designer.
+Este repositório apresenta o portofólio ilustrativo de uma pessoa à nossa escolha. Este portofólio foi criado na imagem de **António Costa**, um Programador e Designer.
