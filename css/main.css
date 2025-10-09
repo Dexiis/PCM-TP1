@@ -1,5 +1,14 @@
 body {
   font-family: "Lexend", sans-serif;
+  
+}
+
+.bottom-gradient {
+  background-image: radial-gradient(
+    circle at bottom,
+    #a200ff 0%,  
+    #010712 20%     
+  );
 }
 
 .socials a {
