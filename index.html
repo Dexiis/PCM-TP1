@@ -34,7 +34,7 @@
 
     <header>
       <nav
-        class="fw-bold navbar navbar-dark bg-color p-4 px-5 border-bottom border-dark navbar-expand-md fixed-top"
+        class="fw-bold navbar navbar-dark bg-color p-4 px-5 border-bottom border-dark navbar-expand-md fixed-top navbar-animation"
         aria-label="Main navigation"
       >
         <div class="container-fluid">
@@ -112,23 +112,27 @@
         style="margin-top: 10rem"
       >
         <div>
-          <h2 class="color-green">Hey there! I'm/</h2>
-          <h1 class="fw-bold display-1 ac-mq">António Costa.</h1>
-          <h2 class="py-2">
+          <h2 class="color-green text-animation">Hey there! I'm/</h2>
+          <h1 class="fw-bold display-1 ac-mq text-animation-2">
+            António Costa.
+          </h1>
+          <h2 class="py-2 text-animation-3">
             { I am a Full Stack Software Developer <br />
             and I am ready to help! };
           </h2>
           <div class="fs-5 pt-4 text-secondary">
-            <p>🚀 Transforming ideas into seamless digital experiences.</p>
-            <p>⚡ Shaping innovative web solutions.</p>
+            <p class="text-animation-4">
+              🚀 Transforming ideas into seamless digital experiences.
+            </p>
+            <p class="text-animation-5">⚡ Shaping innovative web solutions.</p>
           </div>
         </div>
       </section>
 
-      <section id="carousel-section" style="padding-top: 6rem">
+      <section id="carousel-section" class="carousel-padding">
         <div
           id="carouselExampleIndicators"
-          class="carousel slide pt-5 entry-animation"
+          class="carousel slide pt-5"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
@@ -504,9 +508,7 @@
       </section>
 
       <section class="p-5" id="contact">
-        <h1 class="text-center fw-bold py-5 display-3 entry-animation">
-          Contact Me
-        </h1>
+        <h1 class="text-center fw-bold py-5 display-3">Contact Me</h1>
         <section
           class="container justify-content-center"
           style="padding-bottom: 8rem"
@@ -515,12 +517,12 @@
             <div class="col-12 col-md-8 col-lg-6">
               <form action="mailto:antonio.costa@gmail.com">
                 <div class="mb-3">
-                  <label for="email-field" class="form-label entry-animation"
+                  <label for="email-field" class="form-label"
                     >Email address</label
                   >
                   <input
                     type="email"
-                    class="form-control entry-animation"
+                    class="form-control"
                     id="email-field"
                     placeholder="name@example.com"
                     required
@@ -528,23 +530,18 @@
                 </div>
 
                 <div class="mb-3">
-                  <label
-                    for="exampleFormControlTextarea1"
-                    class="form-label entry-animation"
+                  <label for="exampleFormControlTextarea1" class="form-label"
                     >Your message</label
                   >
                   <textarea
-                    class="form-control entry-animation"
+                    class="form-control"
                     id="exampleFormControlTextarea1"
                     rows="3"
                   ></textarea>
                 </div>
 
                 <div class="py-4">
-                  <button
-                    type="submit"
-                    class="btn btn-outline-light w-100 entry-animation"
-                  >
+                  <button type="submit" class="btn btn-outline-light w-100">
                     Submit
                   </button>
                 </div>

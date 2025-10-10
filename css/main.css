@@ -1,14 +1,9 @@
 body {
   font-family: "Lexend", sans-serif;
-  
 }
 
 .bottom-gradient {
-  background-image: radial-gradient(
-    circle at bottom,
-    #a200ff 0%,  
-    #010712 20%     
-  );
+  background-image: radial-gradient(circle at bottom, #a200ff 0%, #010712 20%);
 }
 
 .socials a {
@@ -66,12 +61,18 @@ body {
   .ac-mq {
     font-size: 6.5rem;
   }
+  .carousel-padding {
+    padding-top: 6rem;
+  }
 }
 
 @media (width < 780px) {
   #introduction {
     text-align: center;
     justify-content: center;
+  }
+  .carousel-padding {
+    padding-top: 3rem;
   }
 }
 
@@ -96,7 +97,57 @@ body {
 }
 
 .entry-animation {
-  animation: appear ease-in;
+  animation: appear ease-out;
   animation-timeline: view();
   animation-range: entry 0% cover 50%;
+}
+
+.navbar-animation {
+  animation: nav 0.7s ease-out;
+}
+
+.text-animation {
+  animation: text-animation 0.8s ease-out;
+}
+
+.text-animation-2 {
+  animation: text-animation 0.8s 0.1s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.text-animation-3 {
+  animation: text-animation 0.8s 0.2s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.text-animation-4 {
+  animation: text-animation 0.8s 0.3s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.text-animation-5 {
+  animation: text-animation 0.8s 0.4s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes text-animation {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes nav {
+  from {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
