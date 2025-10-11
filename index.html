@@ -84,15 +84,35 @@
                 </a>
                 <ul class="dropdown-menu dropdown-color">
                   <li>
-                    <a class="dropdown-item text-white" href="#campus-connect"
+                    <a
+                      class="dropdown-item text-white"
+                      href="#carouselExampleIndicators"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="0"
+                      onclick="carousel()"
                       >CampusConnect</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item text-white" href="#">ShopSmart</a>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#carouselExampleIndicators"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="1"
+                      onclick="carousel()"
+                      >ShopSmart</a
+                    >
                   </li>
                   <li>
-                    <a class="dropdown-item text-white" href="#">TrackIt</a>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#carouselExampleIndicators"
+                      data-bs-target="#carouselExampleIndicators"
+                      data-bs-slide-to="2"
+                      onclick="carousel()"
+                    >
+                      TrackIt
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -166,14 +186,14 @@
                 alt="First slide"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" id="shop-smart">
               <img
                 class="d-block carousel-image-custom"
                 src="images/shop-smart.jpeg"
                 alt="Second slide"
               />
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" id="track-it">
               <img
                 class="d-block carousel-image-custom"
                 src="images/track-it.jpeg"
